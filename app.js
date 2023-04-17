@@ -11,7 +11,7 @@ function addItem() {
     
     // const inputValue = itemInput.value;
     localStorage.setItem("gitems", JSON.stringify(itemValue));
-    console.log(localStorage);
+    //console.log(localStorage);
 	// Check if the item value is not empty
 	if (itemValue !== "") {
 		// Create a new list item
